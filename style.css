@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Gabarito", system-ui;
+    background-color: beige;
+
+}
+.container_title{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    margin: 0 300px;
+    
+  border-bottom: solid gray 3px;
+   
+    }
+
+    .container__image{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+      
+    }
+    img{
+        padding: 10px;
+        margin: 1px;
+        flex-grow: 1;
+        height: 200px;
+        flex-basis: 20%;
+    }
+
+
